@@ -1,2 +1,2 @@
-# vst-1-ts
-Video Service Test - 1 - Transcoding Server
+# vst-1
+Video Service Test - 1
