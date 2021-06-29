@@ -9,7 +9,6 @@ outputArguments = {
 }
 
 stream = ffmpeg.input("test-video-1.mp4")
-stream = ffmpeg.filter(stream, "scale", size="hd720")
 stream = ffmpeg.output(stream, "test-output.mp4", **outputArguments)
 
 ffmpeg.run(stream)
